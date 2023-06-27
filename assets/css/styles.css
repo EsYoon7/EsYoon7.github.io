@@ -357,7 +357,12 @@ a.dotted-link:hover {
 }
 
 .experience .item .title .author {
-  color: #999;
+  color: #666666;
+  font-weight: normal;
+}
+
+.experience .item .title .link a:hover {
+  color: #9BCDD2;
   font-weight: normal;
 }
 
