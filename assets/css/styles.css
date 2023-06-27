@@ -358,6 +358,7 @@ a.dotted-link:hover {
 
 .experience .item .author {
   color: #999;
+  font-weight: normal;
 }
 
 /* Git section */
