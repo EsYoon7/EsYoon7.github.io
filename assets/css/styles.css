@@ -187,6 +187,13 @@ a.dotted-link:hover {
   font-size: 24px;
 }
 
+.section .subheading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #4f6163;
+  font-size: 20px;
+}
+
 .section .content .more-link .svg-inline--fa {
   margin-right: 5px;
   font-size: 14px;
@@ -717,6 +724,10 @@ body[data-theme="dark"] .section .heading {
   color: rgba(255, 255, 255, 0.9);
 }
 
+body[data-theme="dark"] .section .subheading {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 body[data-theme="dark"] .experience .item .title {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -750,6 +761,10 @@ body[data-theme="dark"] .list ul li a, body[data-theme="dark"] .credits ul li a 
 }
 
 body[data-theme="dark"] .experience .item .title .place a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body[data-theme="dark"] .experience .item .title .author a {
   color: rgba(255, 255, 255, 0.7);
 }
 
