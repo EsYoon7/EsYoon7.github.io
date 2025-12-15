@@ -577,7 +577,7 @@ a.dotted-link:hover {
 
 /* List section */
 .list ul li {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .list ul li .svg-inline--fa {
