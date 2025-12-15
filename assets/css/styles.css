@@ -577,9 +577,9 @@ a.dotted-link:hover {
 
 /* List section */
 .list li {
-  margin-bottom: 2px;
-  line-height: 1.4;
-  padding-bottom: 0;
+  margin-bottom: 2px !important; /* <--- !important 추가 */
+  line-height: 1.4 !important;   /* <--- !important 추가 */
+  padding-bottom: 0 !important;  /* <--- !important 추가 */
 }
 
 .list li .svg-inline--fa {
