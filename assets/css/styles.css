@@ -576,19 +576,21 @@ a.dotted-link:hover {
 }
 
 /* List section */
-.list ul li {
+.list li {
   margin-bottom: 2px;
+  line-height: 1.4;
+  padding-bottom: 0;
 }
 
-.list ul li .svg-inline--fa {
+.list li .svg-inline--fa {
   margin-right: 5px;
 }
 
-.list ul li a {
+.list li a {
   color: #778492;
 }
 
-.list ul li a:hover {
+.list li a:hover {
   color: #49515a;
 }
 
